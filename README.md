@@ -1,10 +1,11 @@
 # KQoala
 Enter your Kusto queries in natural language and have Azure OpenAI convert it into KQL for you.
 
-# Changes
+## Changes
 Kindle edit .env with the resource's API Key
 Also edit KQoala\node_modules\chatgpt\build\index.js with other details such as Endpoint URL and deployment name.
 
+## Steps to run
 Run the server so the extension can communicate with ChatGPT.
 
 ```bash
